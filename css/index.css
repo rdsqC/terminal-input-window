@@ -26,6 +26,9 @@ html,body,.root{
 .inspector{
     background-color: black;
     padding: 25px;
+    @media (max-width : 600px){
+        width: auto;
+    }
 }
 .inspector *{
     font-size: 15px;
