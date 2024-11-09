@@ -71,3 +71,8 @@ html,body,.root{
 .inspector .order:hover{
     background-color: #272727;
 }
+
+
+.viewPort{
+    padding: 20px 0;
+}
