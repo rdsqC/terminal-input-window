@@ -52,8 +52,8 @@ html,body,.root{
     border-radius:  10px;
     height: fit-content;
     background-color: inherit;
-    align-items: center;
     transition: background-color 0.18s;
+    text-align: start;
 }
 .inspector .order>label{
     display: display;
