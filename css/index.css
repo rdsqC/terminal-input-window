@@ -34,7 +34,7 @@ html,body,.root{
     font-size: 15px;
     font-family: consolas;
 }
-.inspector>.orders{
+.orders{
     display: flex;
     flex-direction: column;
     align-items: normal;
@@ -44,7 +44,7 @@ html,body,.root{
     height: auto;
     background-color: black;
 }
-.inspector .order{
+.order{
     display:inline-flex;
     width: auto;
     padding: 15px;
@@ -55,14 +55,14 @@ html,body,.root{
     transition: background-color 0.18s;
     text-align: start;
 }
-.inspector .order>label{
+.inputBox{
     height: inherit;
     color: white;
     outline: none;
     border: none;
     appearance: textfield;
 }
-.inspector .order input{
+.inputBox input{
     color: white;
     outline: none;
     border: none;
@@ -70,7 +70,7 @@ html,body,.root{
     width: 80px;
     height: inherit;
 }
-.inspector .order:hover{
+.order:hover{
     background-color: #272727;
 }
 
