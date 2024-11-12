@@ -1,6 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
+function ViewPort(){
+  return(
+    <div className='viewPort'>
+      <table></table>
+    </div>
+  )
+}
 function App() {
   return (
     <div className="App">
