@@ -8,6 +8,14 @@ function ViewPort(){
     </div>
   )
 }
+function InputBox({ title, type, backtext, inputprops}){
+  return(
+    <label htmlFor={title} className="inputBox">
+        <span>{title}</span>
+        <input id={title} type={type} placeholder={backtext} {...inputprops}/>
+    </label>
+  )
+}
 function App() {
   return (
     <div className="App">
