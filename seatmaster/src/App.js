@@ -29,6 +29,21 @@ function Order({ inputs }){
     <div className='order'>{inputElements}</div>
   )
 }
+
+function InputWindow({ windowName, orders }){
+  let orderElements = [];
+  let count = 0;
+  for(let order of orders){
+    orderElements.push(
+      <Order key={windowName + count} inputs={order}/>
+    );
+    ++count;
+  }
+  return(
+    <div className="orders">{orderElements}</div>
+  )
+}
+
 function App() {
   return (
   );
