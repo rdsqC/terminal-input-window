@@ -18,6 +18,7 @@ function InputBox({ title, type, backtext, inputprops}){
     </label>
   )
 }
+
 function Order({ inputs }){
   let inputElements = [];
   for(let input of inputs){
@@ -49,6 +50,33 @@ function App() {
     <>
       <ViewPort/>
       <div className='inspector'>
+        <InputWindow
+          windowName={"seat"}
+          orders={
+            [
+              [
+                {
+                  title:"num of width",
+                  type:"number",
+                  backtext:"natural",
+                  inputprops:{
+                    min:"1",
+                    value:"6"
+                  } 
+                },
+                {
+                  title:"num of Height",
+                  type:"number",
+                  backtext:"natural",
+                  inputprops:{
+                    min:"1",
+                    value:"7"
+                  } 
+                }
+              ]
+            ]
+          }
+        />
       </div>
     </>
   );
