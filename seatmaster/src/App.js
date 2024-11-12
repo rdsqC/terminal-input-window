@@ -46,6 +46,11 @@ function InputWindow({ windowName, orders }){
 
 function App() {
   return (
+    <>
+      <ViewPort/>
+      <div className='inspector'>
+      </div>
+    </>
   );
 }
 
