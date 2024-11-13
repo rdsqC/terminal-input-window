@@ -19,7 +19,6 @@ html,body,.root,#root{
     }
 }
 .root,#root>*{
-    width: 50%;
     width: 100%;
     @media (max-width : 600px){
         width: auto;
