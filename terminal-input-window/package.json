@@ -1,6 +1,6 @@
 {
   "homepage": "https://rdsqC.github.io/terminal-input-window",
-  "name": "fake-line",
+  "name": "terminal-input-window",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
