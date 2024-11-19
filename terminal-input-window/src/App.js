@@ -9,7 +9,7 @@ function ViewPort(){
   )
 }
 
-function InputBox({ title, type, backtext, inputprops}){
+function InputBox({ title, type, backtext, ...inputprops}){
   return(
     <label htmlFor={title} className="inputBox">
         <span>{title}</span>
@@ -58,19 +58,15 @@ function App() {
                   title:"num of width",
                   type:"number",
                   backtext:"natural",
-                  inputprops:{
-                    min:"1",
-                    value:"6"
-                  } 
+                  min:"1",
+                  value:"6"
                 },
                 {
                   title:"num of Height",
                   type:"number",
                   backtext:"natural",
-                  inputprops:{
-                    min:"1",
-                    value:"7"
-                  } 
+                  min:"1",
+                  value:"7"
                 }
               ]
             ]
